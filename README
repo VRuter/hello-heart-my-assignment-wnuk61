@@ -1,0 +1,40 @@
+Hi, and welcome to your second interview in Hello Heart!
+In this interview, you are presented with a simple ReactJS application. The application is still under development! Your task is to fix existing bugs and adding new features to the application.
+
+Application Description:
+In its current state, the application:
+Displays a list of medication
+Allows the user to filter the list of medications using a text input
+Allow the user to select medications by clicking on a medication name. A click on an already set medication will deselect it. 
+
+There are a few known issues in the application:
+- When using the filter "Beta," the result is an empty list even though "Betaxolol" is a valid result. 
+- Selected medications are deselected when a filter that filters them out is entered and cleared.
+- Selecting "Benazepril" and filtering for "en" caused the wrong medication to be highlighted.
+
+Instructions
+Try to complete as many of the following steps during the allowed time. 
+
+Step 1: Fix the known issues
+Fix all of the known issues listed above
+
+Step 2: Add a clear filter button
+Add a new button next to the filter input. When clicked, the button should clear the filter and reload the list.
+
+Step 3: Add a "submit" button
+Add a new button under the list. When clicked, the button should output the list of the selected medications to the console window. 
+
+Step 4: Add a "cancel" functionality to the submit button
+Modify the submit button:
+
+- Delay the "submission" by 10 seconds.
+- Change its text to "Cancel (X seconds)." X should be the number of seconds left until the 10 seconds delay is over. The text should be updated every second.
+- If the button is clicked again before the 10 seconds have elapsed - the "submission" should be canceled, and the button should return to its original look and functionality.
+- When the 10 seconds have elapsed, and the data is "submitted," - the button text should be changed to "done," and it should not be clickable. 
+
+Step 5: Bonus Round
+Medication names are hard to spell. Try to improve the list search to allow the user some leeway for different word order, punctuation, and typos.
+
+From all of us here at Hello Heart - 
+Good luck!
+
